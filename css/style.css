@@ -1,0 +1,63 @@
+body {
+  background-color: #f8f8f8;
+}
+
+.menu > li > a {
+  font-size: 20px;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+
+.menu > li {
+  list-style-type: none;
+}
+
+.products_h2 {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #eaeaea;
+}
+
+.detailed_product_description {
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.short_product_description {
+  color: #707070;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+.catalog_a {
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+
+.catalog_img {
+  outline: 2px solid black;
+}
+
+.product_characteristics {
+  color: rgb(0, 0, 0);
+  font-style: oblique;
+  font-size: 16px;
+}
+
+.product_characteristics li {
+  list-style-image: url(../img/gear.png);
+}
+
+input[type ="text"]{
+    font-family: normal;
+    font-size: 16px;
+    width: 300px;
+    height: 20px;
+    color:black;
+}
+
