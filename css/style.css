@@ -102,3 +102,7 @@ textarea {
 .table_catalog thead tr th {
   height: 50px;
 }
+
+.table_catalog th{
+  background-color :rgb(218, 234, 255);
+}
