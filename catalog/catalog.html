@@ -8,27 +8,71 @@
 </head>
 
 <body>
-    <h1>Интернет-магазин ITShop</h1>
-    <ul class="menu">
-        <li><a href="../index.html">Главная</a></li>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="../contacts.html">Контакты</a><br></li>
-    </ul>
-    <hr>
-    <h1>Каталог</h1>
-    <a href="../catalog/img/HP_2170p.jpg" target="_blank"><img class="catalog_img" src="../catalog/img/HP_2170p.jpg"
-            alt="HP 2170p" width="100" height="100"></a><br>
-    <a class="catalog_a" href="HP_2170p.html">Ноутбук HP 2170p</a><br><br>
+    <div class="header">
+        <h1>Интернет-магазин</h1>
+        <img src="../img/logo.png" alt="logo_itshop" width="350" height="100">
+        <ul class="menu">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="../contacts.html">Контакты</a><br></li>
+        </ul>
+        <hr>
+    </div>
+    <div class="body_catalog">
+        <h1>Каталог</h1>
+        <a href="../catalog/img/HP_2170p.jpg" target="_blank"><img class="catalog_img" src="../catalog/img/HP_2170p.jpg"
+                alt="HP 2170p" width="100" height="100"></a><br>
+        <a href="HP_2170p.html">Ноутбук HP 2170p</a><br><br>
 
-    <a href="../catalog/img/Poco_F2_Pro.jpeg" target="_blank"><img class="catalog_img"
-            src="../catalog/img/Poco_F2_Pro.jpeg" alt="Poco F2 Pro" width="100" height="100"></a><br>
-    <a class="catalog_a" href="Poco_F2_Pro.html">Телефон Poco F2 Pro</a><br><br>
+        <a href="../catalog/img/Poco_F2_Pro.jpeg" target="_blank"><img class="catalog_img"
+                src="../catalog/img/Poco_F2_Pro.jpeg" alt="Poco F2 Pro" width="100" height="100"></a><br>
+        <a href="Poco_F2_Pro.html">Телефон Poco F2 Pro</a><br><br>
 
-    <a href="../catalog/img/Sony_WH-CH700N.jpg" target="_blank"><img class="catalog_img"
-            src="../catalog/img/Sony_WH-CH700N.jpg" alt="Sony WH-CH700N" width="100" height="100"></a><br>
-    <a class="catalog_a" href="Sony_WH-CH700N.html">Наушники Sony WH-CH700N</a><br><br>
-    <hr>
-    <p>ITShop &copy; Все права защищены</p>
+        <a href="../catalog/img/Sony_WH-CH700N.jpg" target="_blank"><img class="catalog_img"
+                src="../catalog/img/Sony_WH-CH700N.jpg" alt="Sony WH-CH700N" width="100" height="100"></a><br>
+        <a href="Sony_WH-CH700N.html">Наушники Sony WH-CH700N</a><br><br>
+
+        <table class="table_catalog">
+            <caption>Наличие в магазинах</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>ст.м. Пушкинская</th>
+                    <th>ст.м. Лухмановская</th>
+                    <th>ст.м. Таганская</th>
+                    <th>ст.м. Выставочная</th>
+                </tr>
+            </thead>
+            <tr>
+                <th>Ноутбук HP 2170p</th>
+                <td>&minus;</td>
+                <td>&plus;</td>
+                <td>&plus;</td>
+                <td rowspan="3">&plus;</td>
+            </tr>
+            <tr>
+                <th>Телефон Poco F2 Pro</th>
+                <td>&minus;</td>
+                <td>&plus;</td>
+                <td>&plus;</td>
+
+            </tr>
+            <tr>
+                <th>Наушники Sony WH-CH700N</th>
+                <td>&minus;</td>
+                <td>&plus;</td>
+                <td>&minus;</td>
+            </tr>
+            <tr>
+                <th colspan="5">Данные обновляются каждый день</th>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        <hr>
+        <p>ITShop &copy; Все права защищены</p>
+    </div>
+
 </body>
 
 </html>

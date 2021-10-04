@@ -34,30 +34,71 @@ body {
   line-height: 16px;
 }
 
-.catalog_a {
-  font-style: normal;
-  color: rgb(0, 0, 0);
+input[type="text"] {
+  font-family: normal;
+  font-size: 16px;
+  width: 300px;
+  height: 20px;
+  color: black;
 }
 
-.catalog_img {
+.body_catalog a:hover,
+.header ul li a:hover {
+  color: blue;
+}
+
+.body_catalog a:active,
+.header ul li a:active {
+  color: coral;
+}
+
+.body_catalog a {
+  font-style: normal;
+  color: black;
+}
+
+.body_catalog a img,
+.body_products img {
   outline: 2px solid black;
 }
 
-.product_characteristics {
+.body_products img:hover {
+  outline: none;
+}
+
+input[type="email"]:focus {
+  color: #1625ff;
+  background-color: #eaeaea;
+}
+
+input[type="text"],
+textarea {
+  text-transform: capitalize;
+}
+
+.short_product_description:first-letter,
+.detailed_product_description:first-letter {
+  font-size: 25px;
+  color: black;
+}
+
+.table_characteristics,
+.table_characteristics td {
+  border: 1px solid #000;
+  border-collapse: collapse;
   color: rgb(0, 0, 0);
   font-style: oblique;
   font-size: 16px;
 }
 
-.product_characteristics li {
-  list-style-image: url(../img/gear.png);
+.table_catalog,
+.table_catalog td,
+.table_catalog th {
+  border: 2px solid #000;
+  border-collapse: collapse;
+  text-align: center;
 }
 
-input[type ="text"]{
-    font-family: normal;
-    font-size: 16px;
-    width: 300px;
-    height: 20px;
-    color:black;
+.table_catalog thead tr th {
+  height: 50px;
 }
-
